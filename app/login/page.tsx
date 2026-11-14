@@ -20,13 +20,14 @@ export default function Page() {
 
     return (
         <main className="flex min-h-screen flex-col p-6 bg-white">
-            <div className="flex h-20 shrink-0 items-end rounded-lg bg-blue-500 p-4 md:h-52">
+            <div className="flex h-20 shrink-0 items-center rounded-lg bg-blue-500 px-4 py-2 md:h-52 md:items-end md:p-6">
                 <Image
                     src="/logo/uia-logo.png"
-                    width={500}
-                    height={360}
-                    className="block"
+                    width={1536}
+                    height={467}
+                    className="h-12 w-auto object-contain md:h-28"
                     alt="Banner UIA"
+                    priority
                 />
             </div>
             <div className="flex flex-col justify-center gap-6 rounded-lg bg-gray-50 px-6 py-10 md:w-2/5 md:px-20 m-auto mt-4">
